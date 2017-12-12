@@ -1,0 +1,141 @@
+.banner{
+    background: url(../img/banner-1.jpg);
+    padding: 20em 0;
+    text-align: center;
+    color: #fff;
+    overflow: visible;
+    border-bottom: 4px solid #0084ff;
+    background-size: cover;
+    z-index: 2;
+    .search-form{
+        padding: 20px;
+        display: table;
+        width: 100%;
+        background: rgba(255,255,255,.2);
+        border-radius: 4px;
+        select{
+            border-radius:0px;
+            height: 50px!important;
+            &:hover{
+                border:1px solid #0084ff;
+            }
+        }
+        button{
+            border-radius:0px;
+            height: 50px;
+            width:150px;
+        }
+    }
+}
+.jobs{
+    padding: 80px 0;
+    background-color: #f4f7f7;
+    .alljobs{ 
+        text-align: center;
+        .jobcat{
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 15px 0px;
+            transition: all .2s ease-in-out;
+            box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.4);
+            &:hover{
+                box-shadow:0px 0px 20px 3px rgba(0, 0, 0, .4);
+            }
+        .caticon{
+            
+            .fa{
+                line-height: 88px;
+                font-size: 25px;
+                background-color: #f4f7f7;
+                border-radius: 50%;
+                color: #0084ff;
+                width: 70px;
+                height: 80px;
+                transition: ease-in-out .4s;
+                &:hover{
+                    background-color: #0084ff;
+                    color: #f4f7f7;
+                }
+            
+            }
+        }
+            a{
+                text-decoration: none;
+                 h2{
+                color:#636d75;
+            }
+        }
+        }
+    }
+    }
+    .son-elanlar{
+        margin-top: 100px;
+        background-color: #f4f7f7;
+        .son-elanlar-basliq{
+            margin-bottom: 20px;
+            .laatestjobs{
+                color:gray;
+                border-bottom: none;
+                border-radius: 5px;
+                background-color: #fff;
+                
+                h3{
+                    padding:15px 10px;
+                }
+            }
+            .showall{
+                color:gray;
+                transition: all .2s ease-in-out;
+                &:hover{
+                    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+                }
+                a{
+                    text-decoration: none;
+                    
+                }
+                h4{
+                    padding:15px 10px;
+                    color:#0084ff;
+                    
+                }
+            }
+        }
+        .son-elanlar-text{
+            background-color: #fff;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+            border: 1px solid lightgray;
+            padding: 35px 18px;
+            margin-bottom: 100px;
+            border-radius: 10px;
+            .tek-elan{
+                margin-bottom: 10px;
+                border-radius: 3px;
+                padding: 4px 10px;
+                border: 1px solid lightgray;
+                background-color: #f7f7f7;
+                transition: all .2s ease-in-out;
+                &:hover{
+                    box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+                }
+                .elan-adi{
+                    a{
+                        text-decoration: none;
+                        h3{
+                            color:#0084ff;
+                        }
+                    }
+                }
+                .maash{
+                    text-decoration: none;
+                }
+                .sirket-adi{
+                    a{
+                        text-decoration: none;
+                        p{
+                            color:rgb(85, 83, 83);
+                        }
+                    }
+                }
+            }
+        }
+    }
