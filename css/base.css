@@ -376,4 +376,47 @@ body {
         .son-elanlar .son-elanlar-text .tek-elan .sirket-adi a p {
           color: #555353; }
 
+.hamisini-goster {
+  margin-top: 100px;
+  background-color: #f4f7f7; }
+  .hamisini-goster .basliq {
+    cursor: pointer;
+    color: gray;
+    border-bottom: none;
+    border-radius: 5px;
+    background-color: #fff; }
+    .hamisini-goster .basliq h3 {
+      padding: 15px 10px; }
+  .hamisini-goster .elan-sayi {
+    cursor: pointer;
+    color: gray;
+    transition: all .2s ease-in-out; }
+    .hamisini-goster .elan-sayi:hover {
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3); }
+    .hamisini-goster .elan-sayi h3 {
+      padding: 15px 10px;
+      color: #0084ff; }
+  .hamisini-goster .hamisi-asagi {
+    padding: 35px 18px;
+    margin-bottom: 100px;
+    border-radius: 10px; }
+    .hamisini-goster .hamisi-asagi .hamisi-tek {
+      margin-bottom: 20px;
+      border-radius: 10px;
+      padding: 30px 25px;
+      border: 1px solid lightgray;
+      background-color: #fff;
+      transition: all .2s ease-in-out; }
+      .hamisini-goster .hamisi-asagi .hamisi-tek:hover {
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+      .hamisini-goster .hamisi-asagi .hamisi-tek .hamisi-maas {
+        font-size: 22px;
+        margin-bottom: 10px;
+        background-color: lightgray;
+        margin-right: 0px;
+        padding: 8px 5px;
+        border-radius: 8px; }
+      .hamisini-goster .hamisi-asagi .hamisi-tek .hamisi-text {
+        margin-top: 26px; }
+
 /*# sourceMappingURL=base.css.map */
